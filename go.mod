@@ -1,4 +1,4 @@
-module github.com/pingponglabs/mediamagic-platform/libs/test-helpers
+module github.com/EwanValentine/docker-compose-tester
 
 go 1.18
 
