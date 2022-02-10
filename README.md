@@ -36,7 +36,7 @@ func TestCanDoSomething(t *testing.T) {
 	client := setup.NewDockerComposeClient()
 	
 	// Gets the absolute path of the root directory + 'docker-compose.yml'
-	// I.e. /Users/ewanvalentine/development/mediamagic-platform/docker-compose.yml'
+	// I.e. /Users/ewanvalentine/development/my-project/docker-compose.yml'
 	// This is useful for testing, as your tests may execute from various different 
 	// directories and contexts
 	path, err := setup.GetRootConfigPath("docker-compose.yml")
