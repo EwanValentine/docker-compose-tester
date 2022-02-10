@@ -5,10 +5,11 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/integralist/go-findroot/find"
 	"os"
 	"os/exec"
 	"time"
+
+	"github.com/integralist/go-findroot/find"
 )
 
 var (
