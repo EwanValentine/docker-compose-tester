@@ -1,0 +1,7 @@
+version: '3.9'
+
+services:
+  db:
+    image: redis:alpine
+  cache:
+    image: redis:alpine
